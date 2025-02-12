@@ -1,0 +1,201 @@
+cd ~
+
+#question 5
+git checkout -b feature-update
+
+#question 6
+mkdir reports
+
+#question 7
+cd ~/qtm350-quiz01
+cd reports && touch summary.md
+
+#question 8
+echo "This document provides a summary of the project updates." >> summary.md
+cat summary.md
+
+#question 9
+cd ~/qtm350-quiz01
+git add reports summary.md
+
+#question 10
+git commit -m "Add reports directory"
+
+#question 11
+touch reports/{file1.txt,file2.txt,file3.txt}  
+
+
+cd ~/qtm350-quiz01
+
+#question 12
+mv data/raw-data.csv data/input-data.csv
+
+#question 13
+cd scripts
+mkdir -p backup && cp *.py backup/
+
+#question 14
+cd ~/qtm350-quiz01
+rm docs/documentation.md
+
+#question 15
+git commit -m "Update project files"
+
+#question 16
+cd .. 
+touch .gitignore
+echo "temp/dataset0?.csv" >> .gitignore
+
+
+#question 16
+cd ~/qtm350-quiz01
+touch .gitignore
+ls -la
+
+#question 17
+echo "temp/dataset0?.csv" >> .gitignore
+
+#question 18
+cat .gitignore
+
+#question 19
+git add .gitignore && git commit -m "Add .gitignore file"
+
+#question 20
+git checkout main
+git merge feature-update
+
+cd ~
+
+#question 5
+git checkout -b feature-update
+
+#question 6
+mkdir reports
+
+#question 7
+cd ~/qtm350-quiz01
+cd reports && touch summary.md
+
+#question 8
+echo "This document provides a summary of the project updates." >> summary.md
+cat summary.md
+
+#question 9
+cd ~/qtm350-quiz01
+git add reports summary.md
+
+#question 10
+git commit -m "Add reports directory"
+
+#question 11
+touch reports/{file1.txt,file2.txt,file3.txt}  
+
+
+cd ~/qtm350-quiz01
+
+#question 12
+mv data/raw-data.csv data/input-data.csv
+
+#question 13
+cd scripts
+mkdir -p backup && cp *.py backup/
+
+#question 14
+cd ~/qtm350-quiz01
+rm docs/documentation.md
+
+#question 15
+git commit -m "Update project files"
+
+#question 16
+cd .. 
+touch .gitignore
+echo "temp/dataset0?.csv" >> .gitignore
+
+
+#question 16
+cd ~/qtm350-quiz01
+touch .gitignore
+ls -la
+
+#question 17
+echo "temp/dataset0?.csv" >> .gitignore
+
+#question 18
+cat .gitignore
+
+#question 19
+git add .gitignore && git commit -m "Add .gitignore file"
+
+#question 20
+git checkout main
+git merge feature-update
+
+cd ~
+
+#question 5
+git checkout -b feature-update
+
+#question 6
+mkdir reports
+
+#question 7
+cd ~/qtm350-quiz01
+cd reports && touch summary.md
+
+#question 8
+echo "This document provides a summary of the project updates." >> summary.md
+cat summary.md
+
+#question 9
+cd ~/qtm350-quiz01
+git add reports summary.md
+
+#question 10
+git commit -m "Add reports directory"
+
+#question 11
+touch reports/{file1.txt,file2.txt,file3.txt}  
+
+
+cd ~/qtm350-quiz01
+
+#question 12
+mv data/raw-data.csv data/input-data.csv
+
+#question 13
+cd scripts
+mkdir -p backup && cp *.py backup/
+
+#question 14
+cd ~/qtm350-quiz01
+rm docs/documentation.md
+
+#question 15
+git commit -m "Update project files"
+
+#question 16
+cd .. 
+touch .gitignore
+echo "temp/dataset0?.csv" >> .gitignore
+
+
+#question 16
+cd ~/qtm350-quiz01
+touch .gitignore
+ls -la
+
+#question 17
+echo "temp/dataset0?.csv" >> .gitignore
+
+#question 18
+cat .gitignore
+
+#question 19
+git add .gitignore && git commit -m "Add .gitignore file"
+
+#question 20
+git checkout main
+git merge feature-update
+
